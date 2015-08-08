@@ -16,7 +16,7 @@ By now, you should already know how to use GitHub. If not, make sure you read th
 
 ## Instructions For The Precourse Challenges:
 
-We divided part 2 of the precourse challenges into three sections: google page, fundamentals, and instagram clone. There are three separate folders for each of the challenges. During the google page challenge, you will be creating a copy of the "Google" home page using only HTML and CSS. In the fundamentals challenge, you will be working on solidifying your javascript skills even further. For the instagram clone challengee, you will be creating a basic interface of instagram using HTML/CSS and some Javascript; basically you will be making a clone of instagram. For the json parser challenge, you will be creating a json parser yourself, although it already exists as a javascript method. Please read the "README.md" files inside the two folders for further instructions about each challenge. Be creative with your project and show us that you want to have fun with programming. Good Luck!
+We divided part 3 of the precourse challenges into three sections: frameworks and json parser. During the frameworks challenge, you will build your own custom webpage in React or Angular. For the json parser challenge, you will be creating a json parser yourself, although it already exists as a javascript method. Please read the "README.md" files inside the two folders for further instructions about each challenge. Be creative with your project and show us that you want to have fun with programming. Good Luck!
 
 ## What do I do when I am done?
 
