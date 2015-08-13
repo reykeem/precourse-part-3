@@ -2,7 +2,7 @@
 
 Today you're going to be building a clone of Instagram, one of the top 5 most popular apps in the world. Instagram reached 100m users in 1 year with just 13 engineers and now presents billions of pictures a day
 
-You are going to build this instagram clone in 3 days (recommended)
+You are going to build this Instagram clone in 3 days (recommended)
 
 This will test:
 
@@ -19,7 +19,7 @@ This will test:
 ###### The User Login Page should:
 
 - let a user login (not include server-side authentication)
-- use javascript to check that the user's username and password *matches* some pre-approved usernames and passwords
+- use JavaScript to check that the user's username and password *matches* some pre-approved usernames and passwords
 - send the user to the user's feed once they've entered a correct username and password
 - use CSS and HTML to achieve a consistent Instagram style
 
@@ -38,7 +38,7 @@ This will test:
 
 #### Do's And Don'ts
 
-We will only be modifying the "client" folder. There are four files already set up for you inside the "client" folder: "index.html", "feed.html", "index.js", and "feed.js". Your work for the login page should be done in "index.html" and "index.js", while your work for the feed page should be done in "feed.html" and "feed.js". You should write all your Javascript codes inside the ".js" files. You may do your CSS stylings inside the html files or you may create separate CSS files and link them to the HTML files. You can also create and add more files if you need to. DO NOT modify any other files or folders. You can take a look at the original instagram page for structural information.
+We will only be modifying the "client" folder. There are four files already set up for you inside the "client" folder: "index.html", "feed.html", "index.js", and "feed.js". Your work for the login page should be done in "index.html" and "index.js", while your work for the feed page should be done in "feed.html" and "feed.js". You should write all your JavaScript codes inside the ".js" files. You may do your CSS styling inside the HTML files or you may create separate CSS files and link them to the HTML files. You can also create and add more files if you need to. DO NOT modify any other files or folders. You can take a look at the original Instagram page for structural information.
 
 ## DOM
 
