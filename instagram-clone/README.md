@@ -30,7 +30,7 @@ This will test:
 ###### The User Feed Page should:
 
 - display all the users pictures from their feed (to access these pictures you'll need to make a GET request)
-  - Look at these links to learn about making a GET request:      [AJAX (jQuery)](http://www.w3schools.com/jquery/jquery_ajax_intro.asp) and [GET/POST](http://www.w3schools.com/jquery/jquery_ajax_get_post.asp)
+  - Look at these links to learn about making a GET request: [AJAX (jQuery)](http://www.w3schools.com/jquery/jquery_ajax_intro.asp) and [GET/POST](http://www.w3schools.com/jquery/jquery_ajax_get_post.asp)
 - should have a header with your user information (profile picture and name)
 - should have the ability to like a picture by double clicking on it
 - should have the ability to comment on a picture
@@ -50,13 +50,4 @@ We will only be modifying the "client" folder. There are four files already set 
 For this challenge, you will need to perform DOM Manipulation. The following links will provide you with a better idea about the document object model.
 
 #### Read
-- <http://www.w3schools.com/js/js_htmldom.asp>
-- <http://callmenick.com/post/basics-javascript-dom-manipulation>
-
-## Some Gotchas To Look Out For
-
-- Beware CORS
-  - <http://www.html5rocks.com/en/tutorials/cors/>
-  - <https://www.youtube.com/watch?v=rlnhiwN8AnU>
-- Adding click handlers to dynamically added content
-  - <http://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements>
+- Manipulating the DOM with [JQuery] (https://www.codeschool.com/courses/try-jquery)
