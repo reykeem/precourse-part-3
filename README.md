@@ -10,7 +10,7 @@ Please refer to the **"How do I get started"** section in [Github.md](https://gi
 
 ## Instructions For The Precourse Challenges:
 
-We divided part 3 of the precourse challenges into three sections: a JSON parser and an Instagram clone. For the JSON parser challenge, you will be creating a JSON parser yourself, although it already exists as a JavaScript method. Please read the "README.md" files inside the two folders for further instructions about each challenge. Be creative with your project and show us that you want to have fun with programming. Good Luck!
+We divided part 3 of the precourse challenges into three sections: a (JSON parser)[./json-parser] and an [Instagram clone](./instagram-clone). For the JSON parser challenge, you will be creating a JSON parser yourself, although it already exists as a JavaScript method. Please read the "README.md" files inside the two folders for further instructions about each challenge. Be creative with your project and show us that you want to have fun with programming. Good Luck!
 
 ## What do I do when I am done?
 
