@@ -47,7 +47,8 @@ We will only be modifying the ```client``` folder. There are four files already 
 
 ## DOM
 
-For this challenge, you will need to perform DOM Manipulation. The following link will provide you with a better idea about the document object model.
+For this challenge, you will need to perform DOM Manipulation. The following links will provide you with a better idea about the document object model.
 
 ### Tutorial
 - Manipulating the DOM with [JQuery] (https://www.codeschool.com/courses/try-jquery)
+- Working with [Chrome Dev Tools](https://www.codeschool.com/courses/discover-devtools)
