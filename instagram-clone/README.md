@@ -43,7 +43,7 @@ https://codesmith-precourse.firebaseio.com/instagram/-JqL35o8u6t3dTQaFXSV.json
 
 #### Do's And Don'ts
 
-We will only be modifying the ```client``` folder. There are four files already set up for you inside the "client" folder: "index.html", ```feed.html```, ```index.js```, and ```feed.js```. Your work for the login page should be done in ```index.html``` and ```index.js```, while your work for the feed page should be done in ```feed.html``` and ```feed.js```. You should write all your JavaScript codes inside the ```.js``` files. You may do your CSS styling inside the HTML files or you may create separate CSS files and link them to the HTML files. You can also create and add more files if you need to. DO NOT modify any other files or folders. You can take a look at the original Instagram page for structural information.
+We will only be modifying the ```client``` folder. There are four files already set up for you inside the ```/client``` folder: ```index.html```, ```feed.html```, ```index.js```, and ```feed.js```. Your work for the login page should be done in ```index.html``` and ```index.js```, while your work for the feed page should be done in ```feed.html``` and ```feed.js```. You should write all your JavaScript codes inside the ```.js``` files. You may do your CSS styling inside the HTML files or you may create separate CSS files and link them to the HTML files. You can also create and add more files if you need to. DO NOT modify any other files or folders. You can take a look at the original Instagram page for structural information.
 
 ## DOM
 
