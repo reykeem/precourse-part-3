@@ -30,6 +30,7 @@ This will test:
 ###### The User Feed Page should:
 
 - display all the users pictures from their feed (to access these pictures you'll need to make a GET request)
+  - Note: Some of these links are intentionally broken. It is up to you to decide how to handle this.
   - Look at these links to learn about making a GET request: [AJAX (jQuery)](http://www.w3schools.com/jquery/jquery_ajax_intro.asp) and [GET/POST](http://www.w3schools.com/jquery/jquery_ajax_get_post.asp)
 - should have a header with your user information (profile picture and name)
 - should have the ability to like a picture by double clicking on it
