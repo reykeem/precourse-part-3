@@ -39,7 +39,7 @@ This will test:
 
 Here is the URL for the data:
 ```
-https://codesmith-precourse.firebaseio.com/instagram/-JqL35o8u6t3dTQaFXSV.json
+https://image-server-codesmith.firebaseapp.com/images
 ```
 
 #### Do's And Don'ts
