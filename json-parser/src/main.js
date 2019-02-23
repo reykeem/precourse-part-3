@@ -1,38 +1,39 @@
 function JSONParser(string) {
-  let str = string.slice();
   let index = 0;
-  let current = str[index];
+  let current = string[index];
   // helper function to move pointer to next character in string
   const nextChar = () => {
     index += 1;
-    current = str[index];
+    current = string[index];
   }
   //switch statement to check if char matches special conditions
   const charChecker = () => {
     switch (true) {
       case /\'|\"/.test(current):
-        return "strParser(strArr)";
+        return strParser();
 
-      case /\[/.test(string):
+      case /\[/.test(current):
         return "arrParser(str)";
 
-      case /\{/.test(string):
+      case /\{/.test(current):
         return "objParser(str)";
 
-      case /^\d+$/.test(string):
-        return numParser(string);
+      case /^\d+$/.test(current):
+        //returns NaN when return value of numParser() not assigned to variable, why?
+        let numero = numParser();
+        return numero;
 
       case /null/.test(string):
-        return nullParser(string);
+        return nullParser();
 
       case /true|false/.test(string):
-        return boolParser(string);
+        return boolParser();
       //throw undefined
       default:
-        return "UNDEFINED";
+        return "ALTAI'S UNDEFINED";
     }
   }
-  const numParser = (str) => {
+  const numParser = () => {
     let num = '';
     while (Number.isInteger(Number.parseInt(current))) {
       num = num + current;
@@ -41,8 +42,21 @@ function JSONParser(string) {
     return Number.parseInt(num);
   }
 
-  const strParser = (str) => {
-
+  const strParser = () => {
+    let str = '';
+    nextChar();
+    while (!(/\'|\"/.test(current)) || current === '\\') {
+      if (current === '\\') {
+        nextChar();
+        str += current;
+        nextChar();
+      } else {
+        str += current;
+        nextChar();
+      }
+    }
+    nextChar();
+    return str;
   }
 
   const arrParser = (str) => {
@@ -53,7 +67,7 @@ function JSONParser(string) {
 
   }
 
-  const boolParser = (string) => {
+  const boolParser = () => {
     if (current === 't') {
       while (current !== 'e') {
         nextChar();
@@ -67,13 +81,15 @@ function JSONParser(string) {
     }
   }
 
-  const nullParser = (string) => {
+  const nullParser = () => {
     let val = '';
     while (val !== 'null') {
-      val = val + current;
+      val += current;
       nextChar();
     }
     return null;
   }
+
+  return charChecker();
 }
 
