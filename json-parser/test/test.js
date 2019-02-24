@@ -103,7 +103,7 @@ describe('JSON Parser', function () {
     for (var i = 0; i < 100000; i++) {
       obj[i] = [];
     }
-    xit('should work on a huge data set', function () {
+    it('should work on a huge data set', function () {
       expect(JSONParser(JSON.stringify(obj))).to.eql(obj);
     });
   });
