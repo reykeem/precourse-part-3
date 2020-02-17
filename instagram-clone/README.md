@@ -51,5 +51,6 @@ We will only be modifying the ```client``` folder. There are four files already 
 For this challenge, you will need to perform DOM Manipulation. The following links will provide you with a better idea about the document object model.
 
 ### Tutorial
-- Manipulating the DOM with [JQuery] (https://www.codeschool.com/courses/try-jquery)
-- Working with [Chrome Dev Tools](https://www.codeschool.com/courses/discover-devtools)
+- Manipulating the DOM with [Vanilla JS](https://www.freecodecamp.org/news/dom-manipulation-in-vanilla-js-2036a568dcd9/)
+- jQuery Documentation [jQuery](https://api.jquery.com/)
+- Working with [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
