@@ -14,7 +14,7 @@ This will test:
 
 #### A User Login page
 
-![](https://www.dropbox.com/s/792mx2tz0k5sset/Screenshot%202015-05-26%2019.18.54_shrink.png?dl=1)
+![foo](https://www.dropbox.com/s/792mx2tz0k5sset/Screenshot%202015-05-26%2019.18.54_shrink.png?dl=1)
 
 ###### The User Login Page should:
 
