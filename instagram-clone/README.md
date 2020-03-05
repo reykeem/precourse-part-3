@@ -14,7 +14,7 @@ This will test:
 
 #### A User Login page
 
-![foo](https://www.dropbox.com/s/792mx2tz0k5sset/Screenshot%202015-05-26%2019.18.54_shrink.png?dl=1)
+![instagram_login](/instagram-clone/docs/images/instagram-login.png)
 
 ###### The User Login Page should:
 
@@ -25,7 +25,7 @@ This will test:
 
 #### A User Feed page
 
-![](https://www.dropbox.com/s/gs2fn45pjl6z0v0/instagram-feed_shrink.png?dl=1)
+![instagram_feed](/instagram-clone/docs/images/instagram-feed_shrink.png)
 
 ###### The User Feed Page should:
 
