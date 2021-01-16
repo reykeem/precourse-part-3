@@ -10,7 +10,7 @@ Please refer to the **"How do I get started"** section in [Github.md](https://gi
 
 ## Style guide
 
-As always, we will push you here at Codesmith to continue following the [Airbnb styleguide](https://github.com/airbnb/javascript), a comprehensive and opinionated styleguide for JavaScript. As you work the curriculum, try following the Airbnb styleguide as much as you can. The more you follow it, the more professional your code will look. 
+As always, we will push you here at Codesmith to continue following the custom Codesmith styleguide (don't forget to `npm install`!). As you work the curriculum, try following the styleguide as much as you can. The more you follow it, the more professional your code will look. 
 
 ## Instructions For The Precourse Challenges:
 
