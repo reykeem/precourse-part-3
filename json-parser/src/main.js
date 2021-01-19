@@ -11,6 +11,6 @@
  */
 
 function JSONParser(string) {
-	//CODE HERE
+  // CODE HERE
 	
 }
