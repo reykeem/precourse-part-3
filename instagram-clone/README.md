@@ -39,7 +39,7 @@ This will test:
 
 Here is the URL for the data:
 ```
-https://image-server-codesmith.firebaseapp.com/images
+https://us-central1-codesmith-curriculum-server.cloudfunctions.net/app/images
 ```
 
 #### Do's And Don'ts

@@ -1,6 +1,6 @@
 {
     "root": true,
-    "ignorePatterns": ["**/test", "**/util"],
+    // "ignorePatterns": ["**/test", "**/util"],
     "env": {
       "node": true,
       "browser": true,
