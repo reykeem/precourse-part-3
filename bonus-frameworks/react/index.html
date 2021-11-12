@@ -16,11 +16,11 @@
 
   <script type="text/babel">
 
-    const FirstComponent = React.createReactClass({
-      render: function() {
+    class FirstComponent extends React.Component {
+      render() {
         return <div> hello {this.props.name} </div>;
       }
-    });
+    }
 
     ReactDOM.render(<FirstComponent name="John" />, document.getElementById('content') );
 
