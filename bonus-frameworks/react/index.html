@@ -10,18 +10,19 @@
 
   <div id="content"></div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-  <script type="text/jsx">
+  <script type="text/babel">
 
-    var FirstComponent = React.createClass({
+    const FirstComponent = React.createReactClass({
       render: function() {
         return <div> hello {this.props.name} </div>;
       }
     });
 
-    React.render(<FirstComponent name="John" />, document.getElementById('content') );
+    ReactDOM.render(<FirstComponent name="John" />, document.getElementById('content') );
 
   </script>
 
