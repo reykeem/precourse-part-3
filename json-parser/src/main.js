@@ -12,5 +12,8 @@
 
 function JSONParser(string) {
   // CODE HERE
-	
+	let obj = JSON.parse(string)
+  return obj
 }
+
+console.log(JSONParser("chicken"))
