@@ -139,10 +139,9 @@ img {
     width: 100%;
 }
 
-.navbar {
+.nav {
     background: linear-gradient(#4c81a7, #28618d);
     margin: 0 auto;
-    padding: 0;
     color: rgb(220, 220, 220);
     display: flex;
     justify-content: space-between;
@@ -157,17 +156,12 @@ img {
     border: #26547c;
 }
 
-
-
 .pfp {
     height: 100%;
-    width: 30px;
+    width: 30px; 
     display: flex;
     align-items: center;
     box-shadow: -1px 0px 10px 1px #37678f;
-    padding-left: 10px;
-    padding-right: 100px;
-    /* border: .1px solid aliceblue; */
 }
 
 .pfp img {
@@ -175,6 +169,134 @@ img {
     border: 1px solid #35638b;
 }
 
-.pfp p {
-    padding-left: 10px  ;
+.pfp span {
+    padding-left: 10px;
+}
+
+.sub-navbar {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    background: #ebeced;
+}
+
+.feed-container {
+    text-align: center;
+    background-color: #dedfe0;
+    /* width: 500px; */
+    padding: 30px 40px;
+    border: 1px solid #cbcbcd;
+}
+
+#posts {
+    list-style: none;
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.5);
+    /* padding-bottom: 50px; */
+}
+
+#posts li {
+    /* padding-bottom: 50px; */
+}
+
+.image {
+    width: 500px;
+    border: solid 1px #c4c5c5;
+}
+
+.likebar {
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    align-items: center;
+    /* padding: 10px; */
+    border: solid 1px #c4c5c5;
+}
+
+#heart {
+    padding: 10px;
+    border-right: 1px solid #c4c5c5;
+}
+
+.likers {
+    padding: 10px;
+}
+
+.threedot {
+    padding: 10px;
+    border-left: 1px solid #c4c5c5;
+}
+
+.descrip {
+    width: 500px;
+    background: #fafafa;
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #c4c5c5;
+}
+
+.descrip img {
+    border-radius: 5px;
+    border: 1px solid #35638b;
+}
+
+.post-pfp {
+    /* padding-right: 5px; */
+    width: 150px;
+    /* height: 300px; */
+    /* text-align: center; */
+}
+
+/* .post-pfp img {
+    width: 30px;
+    height: 30px;
+} */
+
+.poster-user strong {
+    color: #5681a6;
+}
+
+.liked-heart {
+    color: pink;
+    padding: 10px;
+    border-right: 1px solid #c4c5c5;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c4c5c5;
+    align-items: center;
+    background: #fafafa;
+}
+
+.comment-text {
+    width: 400px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.new-comment {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.submitter {
+    border: none;
+    background-color: transparent;
+    color: #5681a6;
+}
+
+.submit-button {
+    padding: 5px;
+}
+
+#new-comments {
+    background-color: #fafafa;
+    text-align: left;
+    margin-bottom: -16px;
+    border-left: 1px solid #c4c5c5;
+    border-right: 1px solid #c4c5c5;
+    padding: 3px 15px;
 }
