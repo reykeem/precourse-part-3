@@ -43,13 +43,13 @@ function getPosts() {
                         <img src="${post.img}" class="image" ondblclick="liked(${post.id})">
                         <div class="sub-image">
                             <div class="likebar">
-                                <div id="heart">
+                                <div class="heart heart-${post.id}">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                                     </svg>
                                 </div>
                                 <div class="likers">
-                                    <span>user2 likes this photo</span>
+                                    
                                 </div>
                                 <div class="threedot">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -69,16 +69,15 @@ function getPosts() {
                                 </div>
                             </div>
                             <div id="new-comments">
-                                    <ul>
-                                        isjaosihkjdh
+                                    <ul class="comment-section comment-section-${post.id}">
                                     </ul>
                                 </div>
                             <div class="comments">
                                 <div class="comment-text">
-                                    <input class="new-comment" type="text" placeholder="Add a comment...">
+                                    <input id="new-comment" type="text" placeholder="Add a comment...">
                                 </div>
                                 <div class="submit-button">
-                                    <input class="submitter" type="submit" value="Submit" onclick="postComment(${post.id})">
+                                    <input id="submitter" type="submit" value="Submit" onclick="postComment(${post.id})">
                                 </div>
                             </div>
                         </div>
@@ -97,15 +96,43 @@ getPosts();
 
 
 //function for liked which will run ondblclick
-function liked (post) {
-    let heart = document.getElementById("heart")
-    heart.style.color="red"
+// function liked (post) {
+//     let heart = document.getElementById("heart-${post.id}")
+//     heart.style.color="red"
+// }
+
+// $(document).ready (() => {
+//     $('img.image').on('click', () => {
+//         $('#heart').css('color', 'red')
+//     })
+// })
+
+const liked = (id) => {
+    const post = postsArr.find((p) => p.id === id);
+    post.liked = !post.liked;
+    let el = document.querySelector(`.heart-${post.id}`)
+    el.classList.toggle('active')
 }
+
+// const el = document.querySelectorAll('.image')
+
+// el.forEach(el => {
+//     el.addEventListener('ondblclick', 
+//     })
 
 //function for post comments
-function postComment () {
+// function postComment (id) {
 
+// }
+
+
+// function addComment ()
+
+function postComment (id) {
+    const newComment = document.getElementById("new-comment").value
+    console.log(newComment)
+    const commentSection = document.querySelector(`.comment-section-${id}`)
+    commentSection.insertAdjacentHTML('beforeend', `<li>${newComment}</li>`)
+    // console.log(commentSection)
 }
-
-
 

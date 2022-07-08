@@ -212,9 +212,14 @@ img {
     border: solid 1px #c4c5c5;
 }
 
-#heart {
+.heart {
     padding: 10px;
     border-right: 1px solid #c4c5c5;
+    color: #c0c1c2;
+}
+
+.active {
+    color: red;
 }
 
 .likers {
@@ -224,6 +229,7 @@ img {
 .threedot {
     padding: 10px;
     border-left: 1px solid #c4c5c5;
+    color: #c0c1c2;
 }
 
 .descrip {
@@ -276,13 +282,13 @@ img {
     padding-left: 10px;
 }
 
-.new-comment {
+#new-comment {
     width: 100%;
     border: none;
     background-color: transparent;
 }
 
-.submitter {
+#submitter {
     border: none;
     background-color: transparent;
     color: #5681a6;
@@ -299,4 +305,8 @@ img {
     border-left: 1px solid #c4c5c5;
     border-right: 1px solid #c4c5c5;
     padding: 3px 15px;
+}
+
+.comment-section {
+    list-style-type: none;
 }
