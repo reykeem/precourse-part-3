@@ -14,12 +14,3 @@ function validate() {
     }
 }
 
-// fetch data for feed upon log in
-async function getPost () {
-    // make func async
-    const data = await fetch('https://us-central1-codesmith-curriculum-server.cloudfunctions.net/app/images')
-    const dataJSON = await data.json()
-    console.log(dataJSON)
-}
-
-getPost()

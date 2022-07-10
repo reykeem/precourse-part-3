@@ -95,18 +95,6 @@ function getPosts() {
 getPosts();
 
 
-//function for liked which will run ondblclick
-// function liked (post) {
-//     let heart = document.getElementById("heart-${post.id}")
-//     heart.style.color="red"
-// }
-
-// $(document).ready (() => {
-//     $('img.image').on('click', () => {
-//         $('#heart').css('color', 'red')
-//     })
-// })
-
 const liked = (id) => {
     const post = postsArr.find((p) => p.id === id);
     post.liked = !post.liked;
@@ -114,25 +102,11 @@ const liked = (id) => {
     el.classList.toggle('active')
 }
 
-// const el = document.querySelectorAll('.image')
-
-// el.forEach(el => {
-//     el.addEventListener('ondblclick', 
-//     })
-
-//function for post comments
-// function postComment (id) {
-
-// }
-
-
-// function addComment ()
 
 function postComment (id) {
     const newComment = document.getElementById("new-comment").value
-    console.log(newComment)
     const commentSection = document.querySelector(`.comment-section-${id}`)
     commentSection.insertAdjacentHTML('beforeend', `<li>${newComment}</li>`)
-    // console.log(commentSection)
+    newComment.value = ''
 }
 
